@@ -4,7 +4,7 @@ local crr_t = ffi.typeof('void*(__thiscall*)(void*)')
 local cr_t = ffi.typeof('void*(__thiscall*)(void*)')
 local gm_t = ffi.typeof('const void*(__thiscall*)(void*)')
 local gsa_t = ffi.typeof('int(__fastcall*)(void*, void*, int)')
-
+-- sr
 ffi.cdef[[
     struct animation_layer_t {
         char  pad_0000[20];
